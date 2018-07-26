@@ -2,10 +2,11 @@
 
 ### CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. CocoaPods can help you scale your projects elegantly. 
 ### A dependency manager makes it easy to add, remove, update and manage third-party dependencies used by your app.
+
 --
 
 # CocoaPods Tutorial
-###In this tutorial, you’ll learn how to use CocoaPods with Swift.
+### In this tutorial, you’ll learn how to use CocoaPods with Swift.
 
 ## Install CocoaPods
 You first need to install CocoaPods.  
