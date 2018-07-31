@@ -1,4 +1,4 @@
-Untrack a single file that has already been added/initialized to your repository, i.e., stop tracking the file but not delete it from your system use: git rm --cached filename
+Untrack a single file that has already been added/initialized to your repository, i.e., stop tracking the file but not delete it from your system use: **git rm --cached filename**
 
 To untrack every file that is now in your .gitignore:
 
