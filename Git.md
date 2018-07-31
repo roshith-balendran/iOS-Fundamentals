@@ -1,4 +1,4 @@
-## How to stop Git from tracking files in gitignore file
+## How to stop Git from tracking files listed  in gitignore
 
 If you add the gitignore file to Project Root Directory after Git tracking files for some time, Git will ignore the files specified in the gitignore file.
 
