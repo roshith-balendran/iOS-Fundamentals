@@ -5,8 +5,8 @@
 ## UINavigationController
 
 ```swift
-        let storyBoard = UIStoryboard(name: "KZBuy", bundle: nil)
-        let destinationViewController: KZBuyViewController = storyBoard.instantiateViewController(withIdentifier: "KZBuyVC") as! KZBuyViewController
+        let storyBoard = UIStoryboard(name: "storyboard", bundle: nil)
+        let destinationViewController: CustomViewController = storyBoard.instantiateViewController(withIdentifier: "VC") as! CustomViewController
         let transition = CATransition.init()
         transition.duration = 0.5
         transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
