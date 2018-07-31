@@ -20,7 +20,7 @@ This is list of all fundamental things that every iOS Developer should know. I w
 [**Analytics SDKs**]() | [**Contacts**]() | [**Message**]() | [**Barcode+QR Scanning**]() | [**Printing**]() | [**Device Sensors**]() |
 [**Gestures**]() | [**3D Touch**]() |[**Local Auth - TouchID, FaceID**]() | [**P2P Connectivity**]() | [**Inter-App Connectivity**]() | [**AirDrop File Sharing**]() |
 [**Bluetooth (BLE)**]() | [**HomeKit**]() | [**HealthKit**]() | [**Machine Learning**]() | [**Augmented Reality**]() | [**Artificial Intelligence**]() |
-[**Swift Package Manager**]() | [**Cocoapods**]() | [**Carthage**]() | [**Git**]() | [**SVN**]() | [**Github, Gitlab, Bitbucket**]() |
+[**Swift Package Manager**]() | [**Cocoapods**]() | [**Carthage**]() | [**Git**](https://github.com/roshith-balendran/iOS-Fundamentals/blob/master/Git.md) | [**SVN**]() | [**Github, Gitlab, Bitbucket**]() |
 [**Xcode Tools**]() | [**Instruments**]() | [**ARC & Memory Management**]() | [**Memory Leak**]() | [**Network Link Conditioner**]() | [**GCD**]() |
 [**iPad Design Guidelines**]() | [**Adaptive Layout**]() | [**Size Classes**]() | [**Stack Views**]() | [**Visual Format Language**]() | [**AutoLayout Landscape Mode**]() |
 [**Continuous Integration**]() | [**Fastlane**]() | [**Jenkins Server**]() | [**Unit Testing**]() | [**Test Driven Development**]() | [**Private Pods**]() |
