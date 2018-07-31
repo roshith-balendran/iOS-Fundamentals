@@ -1,6 +1,6 @@
 # Animations
 
-### This is a detailed collection of all the animations that are available in Swift.
+### This is a detailed collection of all the animations that are used in Swift.
 
 ## UINavigationController
 
