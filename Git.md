@@ -1,3 +1,9 @@
+## How to stop Git from tracking files in gitignore file
+
+If you add the gitignore file to Project Root Directory after Git tracking files for some time, Git will ignore the files specified in the gitignore file.
+
+You will have to remove the cached data for gitignore to work properly.
+
 Untrack a single file that has already been added/initialized to your repository, i.e., stop tracking the file but not delete it from your system use: **git rm --cached filename**
 
 To untrack every file that is now in your .gitignore:
