@@ -3,7 +3,7 @@
 ### TableView Delegate and Datasource methods.
 
 ```swift
-func numberOfSections(in tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
