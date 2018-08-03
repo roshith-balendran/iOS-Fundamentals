@@ -1,6 +1,6 @@
 # Index
 
-A B [**C**](#c) D E F G H I J K L M N O P Q R S [**T**](#t) U V W X Y Z
+A B [**C**](#c) D E F G H I J K L M [**N**](#t) O P Q R S [**T**](#t) U V W X Y Z
 
 A
 B
@@ -19,7 +19,7 @@ K
 L
 M
 N
-* [Navigation Controller](*navigation-controller)
+* [Navigation Controller](#navigation-controller)
 
 O
 P
@@ -38,6 +38,8 @@ X
 Y
 Z
 
+## CollectionView
+---
 ### CollectionView Delegate and Datasource methods
 
 ```swift
@@ -54,8 +56,8 @@ Z
     }
 ```
 
-### Navigation Controller
-
+## Navigation Controller
+---
 ### Hide Navigation Bar
 ```swift
         self.navigationController?.navigationBar.isHidden = true
@@ -74,6 +76,8 @@ Z
         navigationController?.popViewController(animated: true)
 ```
 
+## TableView
+---
 ### TableView Delegate and Datasource methods
 
 ```swift
