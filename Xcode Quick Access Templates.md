@@ -1,8 +1,38 @@
 # Index
 
+A B [C](#c) D E F G H I J K L M N O P Q R S [T](#t) U V W X Y Z
+
+A
+B
+### C 
 * [CollectionView Delegate and Datasource methods](#collectionview-delegate-and-datasource-methods)
+
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+### T
 * [TableView Delegate and Datasource methods](#tableview-delegate-and-datasource-methods)
 
+
+U
+V
+W
+X
+Y
+Z
 
 ### CollectionView Delegate and Datasource methods
 
