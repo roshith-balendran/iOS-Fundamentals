@@ -1,6 +1,8 @@
+# Index
 
+* [TableView Delegate and Datasource methods](#tableview_delegate_and_datasource_methods)
 
-### TableView Delegate and Datasource methods.
+### TableView Delegate and Datasource methods
 
 ```swift
     func numberOfSections(in tableView: UITableView) -> Int {
