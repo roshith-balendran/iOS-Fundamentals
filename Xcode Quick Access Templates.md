@@ -18,7 +18,7 @@
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell:KZTitleTableViewCell = tableView.dequeueReusableCell(withIdentifier: "KZTitle", for: indexPath) as! KZTitleTableViewCell
+        let cell:CustomTableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier", for: indexPath) as! CustomTableViewCell
         
         return cell
         
