@@ -1,6 +1,6 @@
 # Index
 
-* [TableView Delegate and Datasource methods](#tableview_delegate_and_datasource_methods)
+* [TableView Delegate and Datasource methods](#tableview-delegate-and-datasource-methods)
 
 ### TableView Delegate and Datasource methods
 
