@@ -6,7 +6,7 @@ A
 B
 
 ### C  
-* [CollectionView](#collectionview)
+* [Collection View](#collection-view)
 
 D
 E
@@ -28,7 +28,7 @@ R
 S
 
 ### T  
-* [TableView](#tableview)
+* [TableView](#table-view)
 
 
 U
@@ -39,7 +39,7 @@ Y
 Z
 
 ---
-## CollectionView
+## Collection View
 ### CollectionView Delegate and Datasource methods
 
 ```swift
@@ -75,7 +75,7 @@ Z
         navigationController?.popViewController(animated: true)
 ```
 ---
-## TableView
+## Table View
 ### TableView Delegate and Datasource methods
 
 ```swift
