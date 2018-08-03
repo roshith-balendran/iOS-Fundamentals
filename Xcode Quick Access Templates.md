@@ -6,7 +6,7 @@ A
 B
 
 ### C  
-* [UICollectionView](#uicollectionview)
+* [CollectionView](#collectionview)
 
 D
 E
@@ -28,7 +28,7 @@ R
 S
 
 ### T  
-* [UITableView](#uitableview)
+* [TableView](#tableview)
 
 
 U
@@ -38,8 +38,8 @@ X
 Y
 Z
 
-## UICollectionView
 ---
+## CollectionView
 ### CollectionView Delegate and Datasource methods
 
 ```swift
@@ -55,9 +55,8 @@ Z
         return ccell!
     }
 ```
-
-## Navigation Controller
 ---
+## Navigation Controller
 ### Hide Navigation Bar
 ```swift
         self.navigationController?.navigationBar.isHidden = true
@@ -75,9 +74,8 @@ Z
 ```swift
         navigationController?.popViewController(animated: true)
 ```
-
-## UITableView
 ---
+## TableView
 ### TableView Delegate and Datasource methods
 
 ```swift
