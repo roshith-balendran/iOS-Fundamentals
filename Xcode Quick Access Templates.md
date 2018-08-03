@@ -1,6 +1,24 @@
 # Index
 
+* [CollectionView Delegate and Datasource methods](#collectionview-delegate-and-datasource-methods)
 * [TableView Delegate and Datasource methods](#tableview-delegate-and-datasource-methods)
+
+
+### CollectionView Delegate and Datasource methods
+
+```swift
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 7
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let ccell: UICollectionViewCell? = collectionView.dequeueReusableCell(withReuseIdentifier: "cellIdentifier", for: indexPath)
+        return ccell!
+    }
+```
 
 ### TableView Delegate and Datasource methods
 
