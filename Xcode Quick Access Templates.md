@@ -19,6 +19,8 @@ K
 L
 M
 N
+* [Navigation Controller](*navigation-controller)
+
 O
 P
 Q
@@ -50,6 +52,26 @@ Z
         let ccell: UICollectionViewCell? = collectionView.dequeueReusableCell(withReuseIdentifier: "cellIdentifier", for: indexPath)
         return ccell!
     }
+```
+
+### Navigation Controller
+
+### Hide Navigation Bar
+```swift
+        self.navigationController?.navigationBar.isHidden = true
+```
+
+### Push to a ViewController
+```swift
+        let storyBoard = UIStoryboard(name: "KZSell", bundle: nil)
+        let destinationViewController: KZSellDetailsViewController = storyBoard.instantiateViewController(withIdentifier: "addressDetailsVC") as! KZSellDetailsViewController
+        navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+        navigationController?.pushViewController(destinationViewController, animated: true)
+```
+
+### Pop to previous View Controller
+```swift
+        navigationController?.popViewController(animated: true)
 ```
 
 ### TableView Delegate and Datasource methods
