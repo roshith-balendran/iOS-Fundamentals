@@ -6,7 +6,7 @@ A
 B
 
 ### C  
-* [CollectionView Delegate and Datasource methods](#collectionview-delegate-and-datasource-methods)
+* [UICollectionView](#uicollectionview)
 
 D
 E
@@ -28,7 +28,7 @@ R
 S
 
 ### T  
-* [TableView Delegate and Datasource methods](#tableview-delegate-and-datasource-methods)
+* [UITableView](#uitableview)
 
 
 U
@@ -38,7 +38,7 @@ X
 Y
 Z
 
-## CollectionView
+## UICollectionView
 ---
 ### CollectionView Delegate and Datasource methods
 
@@ -76,7 +76,7 @@ Z
         navigationController?.popViewController(animated: true)
 ```
 
-## TableView
+## UITableView
 ---
 ### TableView Delegate and Datasource methods
 
