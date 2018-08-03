@@ -5,7 +5,7 @@ This is list of all fundamental things that every iOS Developer should know. I w
 ### [Index⇪](#index)
 
 ### An experienced iOS Developer should be intimately familiar with the **Capabilities Tab** in Xcode Project Settings.  
-[**Xcode Quick Access Templates**](https://github.com/roshith-balendran/iOS-Fundamentals/blob/master/Xcode%20Quick%20Access%20Templates.md)  
+## [**Xcode Quick Access Templates**](https://github.com/roshith-balendran/iOS-Fundamentals/blob/master/Xcode%20Quick%20Access%20Templates.md)  
 
 ---
 
