@@ -1,6 +1,6 @@
 
 
-// Mark: TableView Delegate and Datasource methods.
+### TableView Delegate and Datasource methods.
 
 ```swift
 func numberOfSections(in tableView: UITableView) -> Int {
