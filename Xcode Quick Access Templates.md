@@ -2,41 +2,14 @@
 
 ## A | B | [**C**](#c) | D | E | F | G | H | I | J | K | L | M | [**N**](#t) | O | P | Q | R | S | [**T**](#t) | U | V | W | X | Y | Z
 
-A
-B
-
 ### C  
 * [Collection View](#collection-view)
 
-D
-E
-F
-G
-H
-I
-J
-K
-L
-M
-N
+### N
 * [Navigation Controller](#navigation-controller)
-
-O
-P
-Q
-R
-S
 
 ### T  
 * [TableView](#table-view)
-
-
-U
-V
-W
-X
-Y
-Z
 
 ---
 ## Collection View
