@@ -73,3 +73,40 @@
         
     }
 ```
+
+### Add button action to UIButtons in Prototype Cells
+
+Your ExampleCell
+```swift
+protocol ExampleCellDelegate: class {
+    func didTapButton(cell: ExampleCell)
+}
+
+class ExampleCell: UITableViewCell {
+
+    weak var cellDelegate: ExampleCellDelegate?
+
+    @IBAction func btnTapped(_ sender: UIButton) {
+        cellDelegate?.didTapButton(cell: self)
+    }
+}
+```
+Your ViewController
+```swift
+class ViewController: ExampleCellDelegate {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "ExampleCell", for: indexPath) as? ExampleCell {
+
+            cell.cellDelegate = self
+            return cell
+        }
+        return UITableViewCell()
+    }
+
+    func didTapButton(cell: ExampleCell) {
+        if let indexPath = tableView.indexPath(for: cell) {
+            // do Something
+        }
+    }
+}
+```
