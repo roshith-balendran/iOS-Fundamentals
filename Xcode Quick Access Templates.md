@@ -71,7 +71,12 @@
         
         return cell
         
-    }
+     }
+        
+     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+     
+     }
+     
 ```
 
 ### Add button action to UIButtons in Prototype Cells
