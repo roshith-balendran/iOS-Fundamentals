@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345F316721EC960E003A62C7 /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345F316621EC960E003A62C7 /* HomeStoryboard.storyboard */; };
+		345F316921ECAB37003A62C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F316821ECAB37003A62C7 /* HomeViewController.swift */; };
 		34BD2C6221AD5C4C00E117C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD2C6121AD5C4C00E117C2 /* AppDelegate.swift */; };
 		34BD2C6A21AD5C4C00E117C2 /* iOS_Fundamentals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34BD2C6821AD5C4C00E117C2 /* iOS_Fundamentals.xcdatamodeld */; };
 		34BD2C6C21AD5C4E00E117C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BD2C6B21AD5C4E00E117C2 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		34BD2C7A21AD5C4E00E117C2 /* iOS_FundamentalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD2C7921AD5C4E00E117C2 /* iOS_FundamentalsTests.swift */; };
 		34BD2C8521AD5C4F00E117C2 /* iOS_FundamentalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD2C8421AD5C4F00E117C2 /* iOS_FundamentalsUITests.swift */; };
 		34BD2C9421AD5E2600E117C2 /* QuickAccessTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD2C9321AD5E2600E117C2 /* QuickAccessTemplate.swift */; };
+		34BD2D0221AD7B9400E117C2 /* AnimatedSplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD2D0121AD7B9400E117C2 /* AnimatedSplashScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		345F316621EC960E003A62C7 /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
+		345F316821ECAB37003A62C7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		34BD2C5E21AD5C4C00E117C2 /* iOS-Fundamentals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Fundamentals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BD2C6121AD5C4C00E117C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34BD2C6921AD5C4C00E117C2 /* iOS_Fundamentals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Fundamentals.xcdatamodel; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		34BD2C8421AD5C4F00E117C2 /* iOS_FundamentalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_FundamentalsUITests.swift; sourceTree = "<group>"; };
 		34BD2C8621AD5C4F00E117C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34BD2C9321AD5E2600E117C2 /* QuickAccessTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAccessTemplate.swift; sourceTree = "<group>"; };
+		34BD2D0121AD7B9400E117C2 /* AnimatedSplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSplashScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,9 @@
 			children = (
 				34BD2C6121AD5C4C00E117C2 /* AppDelegate.swift */,
 				34BD2C9321AD5E2600E117C2 /* QuickAccessTemplate.swift */,
-				34BD2C9221AD5DD400E117C2 /* Modules */,
+				345F316821ECAB37003A62C7 /* HomeViewController.swift */,
+				345F316621EC960E003A62C7 /* HomeStoryboard.storyboard */,
+				34BD2C9221AD5DD400E117C2 /* Splash Screen */,
 				34BD2C6B21AD5C4E00E117C2 /* Assets.xcassets */,
 				34BD2C6D21AD5C4E00E117C2 /* LaunchScreen.storyboard */,
 				34BD2C7021AD5C4E00E117C2 /* Info.plist */,
@@ -126,11 +134,20 @@
 			path = "iOS-FundamentalsUITests";
 			sourceTree = "<group>";
 		};
-		34BD2C9221AD5DD400E117C2 /* Modules */ = {
+		34BD2C9221AD5DD400E117C2 /* Splash Screen */ = {
 			isa = PBXGroup;
 			children = (
+				34BD2D0021AD7B7700E117C2 /* Animated Splash Screen */,
 			);
-			path = Modules;
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		34BD2D0021AD7B7700E117C2 /* Animated Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				34BD2D0121AD7B9400E117C2 /* AnimatedSplashScreenViewController.swift */,
+			);
+			path = "Animated Splash Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +256,7 @@
 			files = (
 				34BD2C6F21AD5C4E00E117C2 /* LaunchScreen.storyboard in Resources */,
 				34BD2C6C21AD5C4E00E117C2 /* Assets.xcassets in Resources */,
+				345F316721EC960E003A62C7 /* HomeStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345F316921ECAB37003A62C7 /* HomeViewController.swift in Sources */,
+				34BD2D0221AD7B9400E117C2 /* AnimatedSplashScreenViewController.swift in Sources */,
 				34BD2C9421AD5E2600E117C2 /* QuickAccessTemplate.swift in Sources */,
 				34BD2C6A21AD5C4C00E117C2 /* iOS_Fundamentals.xcdatamodeld in Sources */,
 				34BD2C6221AD5C4C00E117C2 /* AppDelegate.swift in Sources */,
